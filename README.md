@@ -1,3 +1,8 @@
+Forked from scoursen/django-softdelete by Steve Coursen
+
+Adds support for Python 3.
+Updated version on PyPI
+
 django-softdelete
 
 Soft delete for Django ORM, with support for undelete.
@@ -6,10 +11,15 @@ This project provides undelete of soft-deleted objects, along with proper undele
 
 Inspired by http://codespatter.com/2009/07/01/django-model-manager-soft-delete-how-to-customize-admin/
 
+Installation
+============
+
+    pip install django-softdelete-forked
+
 Requirements
 ============
 
-* Django 1.7
+* Django 1.8+
 * django.contrib.contenttypes
 
 Configuration
